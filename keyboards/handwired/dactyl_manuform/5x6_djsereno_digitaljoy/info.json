@@ -1,0 +1,62 @@
+{
+    "keyboard_name": "Dactyl-Manuform (5x6) Mod - Digital Joystick",
+    "manufacturer": "djsereno",
+    "url": "",
+    "maintainer": "djsereno",
+    "usb": {
+        "vid": "0x444D",
+        "pid": "0x3536",
+        "device_version": "0.0.1"
+    },
+    "matrix_pins": {
+        "cols": ["B5", "B4", "E6", "D7", "C6", "D4", "F4", "F5", "F6"],
+        "rows": ["F7", "B1", "B3", "B2", "B6", "D0", "D1"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "layouts": {
+        "LAYOUT_5x6": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 4, "y": 0 },
+                { "matrix": [0, 5], "x": 5, "y": 0 },
+
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [1, 3], "x": 3, "y": 1 },
+                { "matrix": [1, 4], "x": 4, "y": 1 },
+                { "matrix": [1, 5], "x": 5, "y": 1 },
+
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 },
+                { "matrix": [2, 3], "x": 3, "y": 2 },
+                { "matrix": [2, 4], "x": 4, "y": 2 },
+                { "matrix": [2, 5], "x": 5, "y": 2 },
+
+                { "matrix": [3, 0], "x": 0, "y": 3 },
+                { "matrix": [3, 1], "x": 1, "y": 3 },
+                { "matrix": [3, 2], "x": 2, "y": 3 },
+                { "matrix": [3, 3], "x": 3, "y": 3 },
+                { "matrix": [3, 4], "x": 4, "y": 3 },
+                { "matrix": [3, 5], "x": 5, "y": 3 },
+
+                { "matrix": [4, 2], "x": 2, "y": 4 },
+                { "matrix": [4, 3], "x": 3, "y": 4 },
+                { "matrix": [4, 5], "x": 5, "y": 4 },
+
+                { "matrix": [5, 6], "x": 6, "y": 5 },
+                { "matrix": [5, 7], "x": 7, "y": 5 },
+
+                { "matrix": [6, 6], "x": 6, "y": 6 },
+                { "matrix": [6, 7], "x": 7, "y": 6 },
+                { "matrix": [6, 8], "x": 8, "y": 6 }
+            ]
+        }
+    }
+}
