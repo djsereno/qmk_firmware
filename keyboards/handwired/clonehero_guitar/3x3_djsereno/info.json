@@ -1,0 +1,35 @@
+{
+    "keyboard_name": "Clone Hero Guitar",
+    "manufacturer": "djsereno",
+    "url": "",
+    "maintainer": "djsereno",
+    "usb": {
+        "vid": "0x444D",
+        "pid": "0x3536",
+        "device_version": "0.0.1"
+    },
+    "matrix_pins": {
+        "cols": ["D7", "C6", "D4"],
+        "rows": ["E6", "B4", "B5"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "layouts": {
+        "LAYOUT_3x3": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 }
+            ]
+        }
+    }
+}
