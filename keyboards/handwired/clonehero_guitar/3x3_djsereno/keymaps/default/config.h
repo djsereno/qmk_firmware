@@ -19,8 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MASTER_LEFT
 
-#define BOOTMAGIC_LITE_ROW 2
-#define BOOTMAGIC_LITE_COLUMN 1
+#define BOOTMAGIC_LITE_ROW 1
+#define BOOTMAGIC_LITE_COLUMN 0
 
 // Min 0, max 32
 // #define JOYSTICK_BUTTON_COUNT 1

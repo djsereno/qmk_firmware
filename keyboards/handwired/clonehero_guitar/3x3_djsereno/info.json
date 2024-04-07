@@ -9,8 +9,8 @@
         "device_version": "0.0.1"
     },
     "matrix_pins": {
-        "cols": ["D7", "C6", "D4"],
-        "rows": ["E6", "B4", "B5"]
+        "cols": ["B3", "B2", "B6"],
+        "rows": ["F7", "F6", "B1"]
     },
     "diode_direction": "COL2ROW",
     "processor": "atmega32u4",
